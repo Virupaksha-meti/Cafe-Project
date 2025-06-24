@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}#nav{
+    height: 60px;
+    background-color: rgb(240, 79, 103);
+    display: flex;
+  justify-content: center;  /* horizontally center */
+  align-items: center;      /* vertically center */
+  font-weight: bolder;    
+    
+}
+    
+a{
+    text-decoration: none;
+    color: black;
+    margin: 60px;
+    font-size: 20px;   
+}
+.menu-icon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#container{
+    
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    
+    
+}
+#child{
+    height: 570px;
+    width: 750px;   
+    background: linear-gradient(to right, #fff3a1, #ffb2ec);
+    
+}
+h1{
+    margin-top: 150px;
+    letter-spacing: 10px;
+    
+    
+}
+p{
+    text-align: justify;
+    padding-inline: 120px;
+    margin-top: 70px;
+}
+.image{
+    height: 570px;
+    width: 680px;
+}
+button{
+    height: 30px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: rgb(235, 65, 65);
+    border-color: lightcoral;
+    color: white;
+    
+}
+
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #fff3a1, #ffb2ec);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      gap: 40px;
+      padding: 50px;
+    }
+
+    .image-section {
+      display: flex;
+      gap: 10px;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .column img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .tall-img {
+      width: 200px;
+      height: 310px; 
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 150px;
+    }
+
+    .content-box {
+      background-color: #ff6666;
+      padding: 30px 40px;
+      color: black;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+
+    .content-box h4 {
+      font-size: 12px;
+      margin: 0;
+      text-transform: uppercase;
+      
+    }
+
+    .content-box h1 {
+      margin: 10px 0 20px;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .content-box a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
